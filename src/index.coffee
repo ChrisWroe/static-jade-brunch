@@ -104,7 +104,7 @@ module.exports = class StaticJadeCompiler
     relativeFilePathParts = jadeFilePath.split sysPath.sep
     relativeFilePathParts.push(
       relativeFilePathParts.pop()[...-@extension.length] + ".html" )
-    relativeFilePath = sysPath.join.apply this, relativeFilePathParts[1...]
+    relativeFilePath = sysPath.join.apply this, relativeFilePathParts[2...]
     newpath = sysPath.join relAssetPath, relativeFilePath
     return newpath
 
