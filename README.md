@@ -1,5 +1,9 @@
 [![build status](https://secure.travis-ci.org/ilkosta/static-jade-brunch.png)](http://travis-ci.org/ilkosta/static-jade-brunch)
 
+## This is a branch
+
+This is a branch I'm using mainly to play with and may not be up to date. Go to https://github.com/ilkosta/static-jade-brunch for the main project.
+
 ## static-jade-brunch
 Adds [Jade](http://jade-lang.com) support to [brunch](http://brunch.io) without wrapping the compiled html in modules of type commonjs/amd.
 
